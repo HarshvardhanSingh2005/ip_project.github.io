@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Watchlist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Movie Watchlist</h1>
+    <input type="text" id="movieInput" placeholder="Enter movie name">
+    <select id="ratingInput">
+      <option value="⭐">⭐</option>
+      <option value="⭐⭐">⭐⭐</option>
+      <option value="⭐⭐⭐">⭐⭐⭐</option>
+      <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+      <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+    </select>
+    <button onclick="addMovie()">Add Movie</button>
+
+    <ul id="movieList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
